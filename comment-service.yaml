@@ -23,7 +23,7 @@ spring:
   application:
     name: comment-service
 server:
-  port: 0
+  port: 8085
 eureka:
   client:
     service-url:
