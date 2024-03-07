@@ -17,7 +17,7 @@ spring:
     password: admin
     driver-class-name: org.postgresql.Driver
     username: postgres
-    url: jdbc:postgresql://localhost:5432/nms_comment_service
+    url: jdbc:postgresql://localhost:5433/nms_comment_service
   main:
     allow-circular-references: true
   application:
