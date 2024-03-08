@@ -1,9 +1,5 @@
 spring:
-  data:
-    redis:
-      host: redis
-      port: 6379
-      ttl: 10000
+
   jpa:
     generate-ddl: 'false'
     database: postgresql
@@ -41,6 +37,10 @@ logging:
             sql:
               BasicBinder: TRACE
         SQL: DEBUG
+cache:
+  algorithm: LFU
+  capacity: 5
+
 aop:
   logging:
     enabled: true
